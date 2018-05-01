@@ -23,7 +23,6 @@ class Ball(object):
         self.setInitialBallVelocity()
 
     def nextStep(self):
-        # t=1
         self.x = self.x + self.vx * Ball.dt
         self.y = self.y + self.vy * Ball.dt
 
